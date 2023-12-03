@@ -454,9 +454,11 @@
         </div>
         <div class="subscribe-container">
           <p class="subscribe-title">Subscribe</p>
-          <form class="form-subscribe" action="">
-            <label class="form-label-subscribe" for="">
+          <form class="form-subscribe">
+            <label class="form-label-subscribe" for="user-subscribe">
               <input
+                name="user-subscribe"
+                id="user-subscribe"
                 class="input-subscribe"
                 type="email"
                 placeholder="E-mail"
@@ -482,7 +484,7 @@
         <p class="form-description">
           Leave your contacts and we will call you back
         </p>
-        <form action="">
+        <form>
           <div class="review-form-container">
             <label class="form-field-label" for="user-name">Name</label>
             <div class="container-form-input">
@@ -499,11 +501,11 @@
             </div>
           </div>
           <div class="review-form-container">
-            <label class="form-field-label" for="user-name">Phone</label>
+            <label class="form-field-label" for="user-phone">Phone</label>
             <div class="container-form-input">
               <input
                 class="form-input"
-                id="user-name"
+                id="user-phone"
                 name="user-name"
                 type="text"
                 required
@@ -514,11 +516,11 @@
             </div>
           </div>
           <div class="review-form-container">
-            <label class="form-field-label" for="user-name">Email</label>
+            <label class="form-field-label" for="user-email">Email</label>
             <div class="container-form-input">
               <input
                 class="form-input"
-                id="user-name"
+                id="user-email"
                 name="user-name"
                 type="text"
                 required
@@ -535,7 +537,6 @@
               id="user-comment"
               name="user-comment"
               placeholder="Text input"
-              type="text"
               required
             ></textarea>
           </div>
